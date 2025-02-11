@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 1rem;
+    background-color: black;
+}
+
+#purpose h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#purpose p {
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#titulo-tips {
+    color: lightblue; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem; 
+    text-shadow: 0px 0px 8px #0ff; /* aprendido en https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 2px solid #333;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: red;
+    background-color: #f4f4f9;
+}
+
+/* Images styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+a:hover {
+    text-decoration: solid underline;
+}
+
